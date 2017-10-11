@@ -25,20 +25,6 @@ export default {
         rows: Number,
         cols: Number,
         isInvalid: Boolean,
-        /*
-        rows: {
-            type: Number,
-            validator: function(value) {
-                return (value < 10 && value > 0);
-            }
-        },
-        cols: {
-            type: Number,
-            validator: function(value) {
-                return (value < 10 && value > 0);
-            }
-        },
-        */
     },
     data: function() {
         return {

@@ -3,7 +3,7 @@
         <section class="test-header">
             <h1>Ejercicio de algoritmos: <span>Estrellas</span></h1>
             <h2>
-                <p>Enunciado:</p> 
+                <p>Enunciado</p> 
                 <img src="../assets/EstrellasEjercicio.png">
             </h2>
         </section>
@@ -64,3 +64,27 @@ export default {
     }
 }
 </script>
+<style>
+    .test-header{
+        width: 70%;
+        border: 1px solid #c6c1c1;
+        height: 500px;
+        border-radius: 10px;
+        padding: 10px 15px;
+        box-shadow: 0px 0px 4px #767676;
+        
+        margin: 0 auto;
+    }
+
+    .test-header h2{
+        text-align: center;
+    }
+
+    .test-header h2 p{
+        margin: 0;
+    }
+
+    .test-header h2 img{
+        width: 600px;
+    }
+</style>
